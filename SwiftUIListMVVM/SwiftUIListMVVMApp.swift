@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUIListMVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: StockListVM())
         }
     }
 }
